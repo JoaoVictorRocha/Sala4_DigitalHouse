@@ -1,3 +1,4 @@
 
 O git ajuda no trabalho colaborativo.
 O git ajuda no versionamento.
+Ajuda a criar networking.
