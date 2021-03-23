@@ -27,3 +27,7 @@ git status ***"Verifica todas as modificações não comitadas."
 git fetch *** "baixa todos os comits do repositorio remoto, sem alterar o codigo local"
 git pull origin <Branch>   ****** "Atualiza os arquivos da Branch selecionada do repositório remoto para o local"
 git commit -m "mensagem"   ****** "Executa o Commit"
+
+
+====================================================
+
