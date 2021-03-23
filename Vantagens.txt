@@ -2,4 +2,5 @@
 O git ajuda no trabalho colaborativo.
 O git ajuda no versionamento.
 O git pode ser acessado de qualquer local
+O git facilita o compartilhamento de dados
 
