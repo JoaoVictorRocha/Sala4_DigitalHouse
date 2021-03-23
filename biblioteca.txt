@@ -1,7 +1,20 @@
+Passo a passo para criar uma branch
+
 git init
 git clone https://github.com/JoaoVictorRocha/Sala4_DigitalHouse.git
+git pull 
+cd Desktop
+cd projetos
+cd sala4_DigitalHouse
 
-git branch biblioteca-comandos
+git branch nomedaBranch
 
-git checkout -b biblioteca-comando
+git checkout -b nomedaBranch --> serve para sair de Main para biblioteca comando
 
+touch nomedoArquivo.txt --->touch serve para criar um arquivo localmente
+
+git add .
+
+git commit -m "primeiro commit"
+
+git push origin nomedaBranch
