@@ -1,7 +1,29 @@
-git init
+Passo a passo para criar uma branch
+
+git init  ***** "Habilita o Git no repositório local"
 git clone https://github.com/JoaoVictorRocha/Sala4_DigitalHouse.git
+git pull    ********* "Atualiza os arquivos da Branch principal do repositório remoto para o local"
+cd Desktop
+cd projetos
+cd sala4_DigitalHouse
 
-git branch biblioteca-comandos
+git branch nomedaBranch ***** Cria uma branch"
 
-git checkout -b biblioteca-comando
+git checkout -b nomedaBranch ***** "Serve para sair de Main para biblioteca comando"
 
+touch nomedoArquivo.txt ***** "touch serve para criar um arquivo localmente"
+
+git add .  "Atualiza o diretório ./git com o estado atual dos arquivos"
+
+git commit -m "primeiro commit" ****** "Executa o Commit"
+
+git push origin nomedaBranch ***** "Envia os arquivos da Branch selecionada do repositório local para o remoto"
+
+
+*****************Comandos Úteis*********************
+
+rm <file> remove arquivos
+git status ***"Verifica todas as modificações não comitadas."
+git fetch *** "baixa todos os comits do repositorio remoto, sem alterar o codigo local"
+git pull origin <Branch>   ****** "Atualiza os arquivos da Branch selecionada do repositório remoto para o local"
+git commit -m "mensagem"   ****** "Executa o Commit"
